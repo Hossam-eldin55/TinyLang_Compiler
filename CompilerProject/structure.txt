@@ -1,0 +1,60 @@
+Folder PATH listing
+Volume serial number is DE37-1041
+C:.
+|   .gitignore
+|   CompilerProject.iml
+|   structure.txt
+|   test.tiny
+|   
++---.idea
+|   |   .gitignore
+|   |   misc.xml
+|   |   modules.xml
+|   |   workspace.xml
+|   |   
+|   \---libraries
+|           antlr_4_13_2_complete.xml
+|           
++---out
+|   \---production
+|       \---CompilerProject
+|               ASTVisitor.class
+|               Main$1.class
+|               Main.class
+|               TinyLexer.class
+|               TinyLexer.g4
+|               TinyLexer.interp
+|               TinyLexer.tokens
+|               TinyParser$AssignmentContext.class
+|               TinyParser$BlockContext.class
+|               TinyParser$ExpressionContext.class
+|               TinyParser$IfStatementContext.class
+|               TinyParser$ProgramContext.class
+|               TinyParser$ReturnStatementContext.class
+|               TinyParser$StatementContext.class
+|               TinyParser$WhileStatementContext.class
+|               TinyParser.class
+|               TinyParser.g4
+|               TinyParser.interp
+|               TinyParser.tokens
+|               TinyParserBaseListener.class
+|               TinyParserBaseVisitor.class
+|               TinyParserListener.class
+|               TinyParserVisitor.class
+|               
+\---src
+        ASTVisitor.java
+        Main.java
+        TinyLexer.g4
+        TinyLexer.interp
+        TinyLexer.java
+        TinyLexer.tokens
+        TinyParser.g4
+        TinyParser.interp
+        TinyParser.java
+        TinyParser.tokens
+        TinyParserBaseListener.java
+        TinyParserBaseVisitor.java
+        TinyParserListener.java
+        TinyParserVisitor.java
+        
